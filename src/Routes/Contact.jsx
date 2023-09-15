@@ -1,13 +1,13 @@
 import React from 'react'
 import Form from '../Components/Form'
-
-//Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
+import "../Styles/contact.css"
 
 const Contact = () => {
+
   return (
-    <div>
-      <h2>Want to know more?</h2>
-      <p>Send us your questions and we will contact you</p>
+    <div className='contact vista'>
+      <h2>¿Te gustó la atención?</h2>
+      <p>Suscríbete y recibe promociones por email</p>
       <Form/>
     </div>
   )
